@@ -9,7 +9,7 @@ docs_dir: docs
 use_directory_urls: true
 
 nav:
-  - Home: Index.md
+  - Home: index.md
   - Cahier des Charges:
     - Contexte: Cahier_des_charges/Contexte.md
     - Acteurs: Cahier_des_charges/Acteurs.md
