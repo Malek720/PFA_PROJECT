@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Architecture/Stack technique.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Stack technique"
             }
           }
         ]
@@ -210,8 +210,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "503f927bfb51347c",
+  "active": "06b6768b2a6e80c5",
   "lastOpenFiles": [
+    "docs/index_temp.md",
     "docs/Architecture/Stack technique.md",
     "docs/Diagrammes_UML/Diagramme de classes.md",
     "docs/Diagrammes_UML/Cas d'utilisation.md",
@@ -246,7 +247,6 @@
     "New Text Document.txt",
     "2026-07-13.md",
     "Cahier_des_charges/Acteurs.md",
-    "Architecture/Stack technique.md",
-    "Diagrammes_UML/Diagramme de classes.md"
+    "Architecture/Stack technique.md"
   ]
 }
