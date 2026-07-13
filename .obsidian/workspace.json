@@ -22,22 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "d0b2408497698f92",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "dc04a3566b84b85f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -110,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Index"
             }
           },
           {
@@ -128,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Index"
             }
           },
           {
@@ -170,20 +156,31 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Index"
+            }
+          },
+          {
+            "id": "06b6768b2a6e80c5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,11 +190,16 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dc04a3566b84b85f",
+  "active": "503f927bfb51347c",
   "lastOpenFiles": [
+    "Untitled.base",
+    "New folder",
+    "mkdocs.yml",
+    "New Text Document.txt",
     "Index.md",
     "2026-07-13.md",
     "Cahier_des_charges/Acteurs.md",

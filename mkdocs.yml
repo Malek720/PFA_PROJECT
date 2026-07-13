@@ -1,0 +1,15 @@
+site_name: PFA Vault
+theme:
+  name: material
+  palette:
+    primary: indigo
+plugins:
+  - search
+  # This plugin fixes Obsidian-style links (needs to be installed via requirements.txt)
+  - obsidian-links
+markdown_extensions:
+  - admonition # Allows for Obsidian callouts > [!INFO]
+  - pymdownx.details
+  - pymdownx.superfences
+ location :
+  docs_dir: .
