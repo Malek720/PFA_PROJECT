@@ -1,5 +1,5 @@
 site_name: My PFA Vault
-site_url: https://malek720.github.io/PFA_PROJECT/
+site_url: https://malek720.github.io/PFA_PROJECT/index
 theme:
   name: material
   palette:
@@ -7,29 +7,7 @@ theme:
     accent: indigo
 docs_dir: docs
 
-nav:
-  - Home: index.md
-  - Architecture: 
-      - Stack Technique: Architecture/Stack Technique.md
-  - Cahier des charges:
-      - Acteurs du Système: Cahier_des_charges/Acteurs du Système.md
-      - Besoins Fonctionnels: Cahier_des_charges/Besoins Fonctionnels.md
-      - Besoins Non Fonctionnels: Cahier_des_charges/Besoins Non Fonctionnels.md
-      - Contexte et Objectifs: Cahier_des_charges/Contexte et Objectifs.md
-  - Diagrammes UML:
-      - Diagramme de Cas d'Utilisation: Diagrammes_UML/Diagramme de Cas d'Utilisation.md
-      - Diagramme de Classes: Diagrammes_UML/Diagramme de Classes.md
-      - Diagramme de Séquence: Diagrammes_UML/Diagramme de Séquence — Candidature.md
-  - Suivi de stage:
-      - Journal Hebdomadaire: Suivi_de_stage/Journal Hebdomadaire.md
-
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - attr_list
-  - md_in_html
+  - pymdownx.superfences
