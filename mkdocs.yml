@@ -1,12 +1,11 @@
 site_name: Plateforme de Gestion des PFA — Project #47
-site_url: https://Malek720.github.io/PFA_PROJECT/
+site_url: https://malek720.github.io/PFA_PROJECT/
 theme:
   name: material
   palette:
     primary: indigo
     accent: teal
 docs_dir: docs
-use_directory_urls: false
 
 nav:
   - Home: index.md
