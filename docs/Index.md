@@ -8,21 +8,21 @@
 ## 📂 Navigation
 
 ### Cahier des Charges
-- [[Contexte]] — Problem statement and objectives
-- [[Acteurs]] — The three main actors
-- [[Besoins fonctionnels]] — Functional requirements (BF-01 → BF-24)
-- [[Besoins non fonctionnels]] — Security, performance, ergonomics
+- [Contexte](Contexte.md) — Problem statement and objectives
+- [Acteurs](Acteurs.md) — The three main actors
+- [Besoins fonctionnels](Besoins%20fonctionnels.md) — Functional requirements (BF-01 → BF-24)
+- [Besoins non fonctionnels](Besoins%20non%20fonctionnels.md) — Security, performance, ergonomics
 
 ### UML Diagrams
-- [[Cas d'utilisation]] — Use case diagram
-- [[Diagramme de classes]] — Class diagram
-- [[Séquence — Candidature]] — Sequence diagram
+- [Cas d'utilisation](Cas%20d'utilisation.md) — Use case diagram
+- [Diagramme de classes](Diagramme%20de%20classes.md) — Class diagram
+- [Séquence — Candidature](S%C3%A9quence%20%E2%80%94%20Candidature.md) — Sequence diagram
 
 ### Architecture
-- [[Stack technique]] — Technologies and tools
+- [Stack technique](Stack%20technique.md) — Technologies and tools
 
 ### Internship Log
-- [[Journal hebdomadaire]] — Weekly progress tracker
+- [Journal hebdomadaire](Journal%20hebdomadaire.md) — Weekly progress tracker
 
 ---
 
