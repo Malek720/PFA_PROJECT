@@ -6,6 +6,7 @@
       {
         "id": "0152abcf9ac233f9",
         "type": "tabs",
+        "dimension": 58.7893864013267,
         "children": [
           {
             "id": "503f927bfb51347c",
@@ -13,12 +14,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Diagrammes_UML/Diagramme de classes.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diagramme de classes"
+              "title": "index"
+            }
+          }
+        ]
+      },
+      {
+        "id": "237b821442a35466",
+        "type": "tabs",
+        "dimension": 41.2106135986733,
+        "children": [
+          {
+            "id": "c0621173aed4e3aa",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -154,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Index.md",
+                "file": "docs/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Index"
+              "title": "Outline of index"
             }
           },
           {
@@ -178,7 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 288.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,8 +212,9 @@
   },
   "active": "503f927bfb51347c",
   "lastOpenFiles": [
-    "docs/Diagrammes_UML/Cas d'utilisation.md",
+    "docs/Architecture/Stack technique.md",
     "docs/Diagrammes_UML/Diagramme de classes.md",
+    "docs/Diagrammes_UML/Cas d'utilisation.md",
     "docs/index.md",
     "docs/Index.md",
     "docs/Stack technique.md",
@@ -215,7 +234,6 @@
     "docs/Cahier_des_charges",
     "docs/Diagrammes_UML/Séquence — Candidature.md",
     "docs/Diagrammes_UML",
-    "docs/Architecture/Stack technique.md",
     "docs/Architecture",
     "docs/Suivi_de_stage/Journal hebdomadaire.md",
     "docs/Suivi_de_stage",
