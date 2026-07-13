@@ -8,21 +8,21 @@
 ## 📂 Navigation
 
 ### Cahier des Charges
-- [Contexte](Cahier%20des%20Charges/Contexte.md) — Problem statement and objectives
-- [Acteurs](Cahier%20des%20Charges/Acteurs.md) — The three main actors
-- [Besoins fonctionnels](Cahier%20des%20Charges/Besoins%20fonctionnels.md) — Functional requirements (BF-01 → BF-24)
-- [Besoins non fonctionnels](Cahier%20des%20Charges/Besoins%20non%20fonctionnels.md) — Security, performance, ergonomics
+- [Contexte](Cahier_des_charges/Contexte.md) — Problem statement and objectives
+- [Acteurs](Cahier_des_charges/Acteurs.md) — The three main actors
+- [Besoins fonctionnels](Cahier_des_charges/Besoins%20fonctionnels.md) — Functional requirements (BF-01 → BF-24)
+- [Besoins non fonctionnels](Cahier_des_charges/Besoins%20non%20fonctionnels.md) — Security, performance, ergonomics
 
 ### UML Diagrams
-- [Cas d'utilisation](UML%20Diagrams/Cas%20d'utilisation.md) — Use case diagram
-- [Diagramme de classes](UML%20Diagrams/Diagramme%20de%20classes.md) — Class diagram
-- [Séquence — Candidature](UML%20Diagrams/S%C3%A9quence%20%E2%80%94%20Candidature.md) — Sequence diagram
+- [Cas d'utilisation](Diagrammes_UML/Cas%20d'utilisation.md) — Use case diagram
+- [Diagramme de classes](Diagrammes_UML/Diagramme%20de%20classes.md) — Class diagram
+- [Séquence — Candidature](Diagrammes_UML/S%C3%A9quence%20%E2%80%94%20Candidature.md) — Sequence diagram
 
 ### Architecture
 - [Stack technique](Architecture/Stack%20technique.md) — Technologies and tools
 
 ### Internship Log
-- [Journal hebdomadaire](Suivi%20de%20stage/Journal%20hebdomadaire.md) — Weekly progress tracker
+- [Journal hebdomadaire](Suivi_de_stage/Journal%20hebdomadaire.md) — Weekly progress tracker
 
 ---
 

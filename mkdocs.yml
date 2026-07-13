@@ -7,7 +7,21 @@ theme:
     accent: indigo
 docs_dir: docs
 
-
+nav:
+  - Home: index.md
+  - Cahier des Charges:
+    - Contexte: Cahier_des_charges/Contexte.md
+    - Acteurs: Cahier_des_charges/Acteurs.md
+    - Besoins fonctionnels: Cahier_des_charges/Besoins fonctionnels.md
+    - Besoins non fonctionnels: Cahier_des_charges/Besoins non fonctionnels.md
+  - UML Diagrams:
+    - Cas d'utilisation: Diagrammes_UML/Cas d'utilisation.md
+    - Diagramme de classes: Diagrammes_UML/Diagramme de classes.md
+    - Séquence — Candidature: Diagrammes_UML/Séquence — Candidature.md
+  - Architecture:
+    - Stack technique: Architecture/Stack technique.md
+  - Suivi de stage:
+    - Journal hebdomadaire: Suivi_de_stage/Journal hebdomadaire.md
 
 markdown_extensions:
   - admonition
