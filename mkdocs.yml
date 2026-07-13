@@ -7,8 +7,7 @@ theme:
     accent: indigo
 docs_dir: docs
 
-plugins:
-  - obsidian
+
 
 markdown_extensions:
   - admonition
