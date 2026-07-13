@@ -1,6 +1,6 @@
 site_name: My PFA Vault
 site_url: https://malek720.github.io/PFA_PROJECT/
-- Home: index.md
+Home: index.md
 theme:
   name: material
   palette:
