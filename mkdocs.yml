@@ -5,7 +5,7 @@ theme:
     primary: indigo
     accent: indigo
 # This ensures MkDocs looks at the root of your vault for files
-docs_dir: .
+docs_dir: docs
 # This allows for Obsidian-style callouts/admonitions
 markdown_extensions:
   - admonition

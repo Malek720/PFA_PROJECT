@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "docs/Index.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Index.md",
+                "file": "docs/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Index.md",
+                "file": "docs/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index.md",
+                "file": "docs/Index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -196,11 +196,28 @@
   },
   "active": "503f927bfb51347c",
   "lastOpenFiles": [
-    "Untitled.base",
+    "docs/Cahier_des_charges/Contexte.md",
+    "docs/Index.md",
+    "Index.md",
+    "docs/Cahier_des_charges/Besoins non fonctionnels.md",
+    "docs/Cahier_des_charges/Besoins fonctionnels.md",
+    "docs/Cahier_des_charges/Acteurs.md",
+    "docs/Cahier_des_charges",
+    "docs/Diagrammes_UML/Séquence — Candidature.md",
+    "docs/Diagrammes_UML/Diagramme de classes.md",
+    "docs/Diagrammes_UML/Cas d'utilisation.md",
+    "docs/Diagrammes_UML",
+    "docs/Architecture/Stack technique.md",
+    "docs/Architecture",
+    "docs/Suivi_de_stage/Journal hebdomadaire.md",
+    "docs/Suivi_de_stage",
+    "docs/2026-07-13.md",
+    "docs/Untitled.base",
+    "docs",
     "New folder",
+    "Untitled.base",
     "mkdocs.yml",
     "New Text Document.txt",
-    "Index.md",
     "2026-07-13.md",
     "Cahier_des_charges/Acteurs.md",
     "Architecture/Stack technique.md",
