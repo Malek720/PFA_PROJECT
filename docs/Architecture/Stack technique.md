@@ -1,6 +1,6 @@
-# ⚙️ Stack Technique
+﻿# ⚙️ Stack Technique
 
-[[Index|← Back to Index]]
+[← Back to Index](../index.md)
 
 ---
 

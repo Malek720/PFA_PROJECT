@@ -1,6 +1,6 @@
-# 📊 Diagramme de Cas d'Utilisation
+﻿# 📊 Diagramme de Cas d'Utilisation
 
-[[Index|← Back to Index]]
+[← Back to Index](../index.md)
 
 ---
 

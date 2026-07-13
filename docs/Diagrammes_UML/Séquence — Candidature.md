@@ -1,6 +1,6 @@
-# 🔄 Diagramme de Séquence — Candidature
+﻿# 🔄 Diagramme de Séquence — Candidature
 
-[[Index|← Back to Index]]
+[← Back to Index](../index.md)
 
 ---
 

@@ -1,6 +1,6 @@
-# 🗂️ Diagramme de Classes
+﻿# 🗂️ Diagramme de Classes
 
-[[Index|← Back to Index]]
+[← Back to Index](../index.md)
 
 ---
 

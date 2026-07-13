@@ -172,13 +172,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline"
             }
           },
           {
@@ -210,11 +209,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "06b6768b2a6e80c5",
+  "active": "c0621173aed4e3aa",
   "lastOpenFiles": [
+    "docs/Architecture/Stack technique.md",
     "docs/index.md",
     "docs/index_temp.md",
-    "docs/Architecture/Stack technique.md",
     "docs/Diagrammes_UML/Diagramme de classes.md",
     "docs/Diagrammes_UML/Cas d'utilisation.md",
     "docs/Index.md",

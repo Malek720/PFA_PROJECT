@@ -1,4 +1,4 @@
-# 🎓 Plateforme de Gestion des PFA — Project #47
+﻿# 🎓 Plateforme de Gestion des PFA — Project #47
 
 > **Intern:** Ben Sassi Malek · **Supervisor:** M. Anas Farhati · **Lab:** IRIS, ESPRIT-TECH  
 > **Duration:** 8 weeks · **Summer 2026**

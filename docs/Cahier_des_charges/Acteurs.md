@@ -1,6 +1,6 @@
-# 👥 Acteurs du Système
+﻿# 👥 Acteurs du Système
 
-[[Index|← Back to Index]]
+[← Back to Index](../index.md)
 
 ---
 

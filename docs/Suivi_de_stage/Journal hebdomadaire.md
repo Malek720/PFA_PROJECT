@@ -1,13 +1,13 @@
-# 📅 Journal Hebdomadaire
+﻿# 📅 Journal Hebdomadaire
 
-[[Index|← Back to Index]]
+[← Back to Index](../index.md)
 
 ---
 
 ## Week 1–2 · Setup & Design
 
 - [ ] Requirements analysis with M. Farhati
-- [ ] Finalize UML diagrams ([[Cas d'utilisation]], [[Diagramme de classes]], [[Séquence — Candidature]])
+- [ ] Finalize UML diagrams (Cas d'utilisation, Diagramme de classes, Séquence — Candidature)
 - [ ] Set up dev environment (Node.js, PostgreSQL, Docker)
 - [ ] Initialize Git repo and project structure
 - [ ] Design database schema
