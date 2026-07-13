@@ -1,15 +1,13 @@
-site_name: PFA Vault
+site_name: My PFA Vault
 theme:
   name: material
   palette:
     primary: indigo
-plugins:
-  - search
-  # This plugin fixes Obsidian-style links (needs to be installed via requirements.txt)
-  - obsidian-links
+    accent: indigo
+# This ensures MkDocs looks at the root of your vault for files
+docs_dir: .
+# This allows for Obsidian-style callouts/admonitions
 markdown_extensions:
-  - admonition # Allows for Obsidian callouts > [!INFO]
+  - admonition
   - pymdownx.details
   - pymdownx.superfences
- location :
-  docs_dir: .
