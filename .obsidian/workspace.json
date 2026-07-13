@@ -190,6 +190,15 @@
   },
   "active": "06b6768b2a6e80c5",
   "lastOpenFiles": [
+    "docs/Stack technique.md",
+    "docs/Journal hebdomadaire.md",
+    "docs/Cas d'utilisation.md",
+    "docs/Diagramme de classes.md",
+    "docs/Séquence — Candidature.md",
+    "docs/Contexte.md",
+    "docs/Acteurs.md",
+    "docs/Besoins fonctionnels.md",
+    "docs/Besoins non fonctionnels.md",
     "docs/index.md",
     "docs/Cahier_des_charges/Contexte.md",
     "docs/Index.md",
@@ -216,12 +225,6 @@
     "2026-07-13.md",
     "Cahier_des_charges/Acteurs.md",
     "Architecture/Stack technique.md",
-    "Diagrammes_UML/Diagramme de classes.md",
-    "Diagrammes_UML/Cas d'utilisation.md",
-    "Cahier_des_charges/Contexte.md",
-    "Cahier_des_charges/Besoins non fonctionnels.md",
-    "Cahier_des_charges/Besoins fonctionnels.md",
-    "Suivi_de_stage/Journal hebdomadaire.md",
-    "Diagrammes_UML/Séquence — Candidature.md"
+    "Diagrammes_UML/Diagramme de classes.md"
   ]
 }
