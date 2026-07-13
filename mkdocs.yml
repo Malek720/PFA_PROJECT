@@ -6,7 +6,9 @@ theme:
     primary: indigo
     accent: indigo
 docs_dir: docs
-use_directory_urls: false
+
+# This ensures URLs work properly with GitHub Pages
+use_directory_urls: true
 
 nav:
   - Home: index.md

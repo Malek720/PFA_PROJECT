@@ -11,10 +11,14 @@
             "id": "503f927bfb51347c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/index.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "index"
             }
           }
         ]
@@ -188,7 +192,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "06b6768b2a6e80c5",
+  "active": "503f927bfb51347c",
   "lastOpenFiles": [
     "docs/index.md",
     "docs/Index.md",
