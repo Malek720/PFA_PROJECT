@@ -1,4 +1,4 @@
-﻿# 📌 Contexte et Objectifs
+# 📌 Contexte et Objectifs
 
 [← Back to Index](../index.md)
 
@@ -6,9 +6,9 @@
 
 ## 1. Problem Statement
 
-Each academic year, ESPRIT students produce PFA (Projets de Fin d'Année) that accumulate without any structured archiving system, making them difficult to consult for future cohorts. Submitted reports also receive no automatic plagiarism check, leaving supervisors to handle verification manually.
+Each academic year, ESPRIT students produce PFA (Projets de Fin d'Année) that accumulate without any structured submission or archiving system. Teachers currently manage deliverable collection manually, with no way to enforce submission rules (who submits, how many copies, in what order) or verify reports automatically for plagiarism.
 
-A centralised platform is therefore needed to manage the full PFA lifecycle — from student application to final archiving — with integrated AI-powered plagiarism detection.
+A centralised platform is needed where teachers can create structured submission spaces per class, define the type of deliverables expected, and invite specific students — while the system enforces submission rules and runs automatic plagiarism detection.
 
 ---
 
@@ -16,23 +16,27 @@ A centralised platform is therefore needed to manage the full PFA lifecycle — 
 
 Develop a web application **"Plateforme de Gestion des PFA"** that will:
 
-- Centralise PFA subject management and student applications
-- Allow students to submit their deliverables (report, source code) online
-- Assist supervisors with an automated plagiarism detection system
-- Archive validated projects and make them searchable for future students
-- Build a knowledge base that highlights the best student work
+- Allow teachers to create submission spaces tied to specific classes or student groups
+- Let teachers configure each space with individual or group deliverable types
+- Allow teachers to invite specific students to each space
+- Enforce submission rules: individual (each student submits their own) vs group (first submission locks out others)
+- Notify students of space invitations, submission status, and teacher decisions
+- Run automatic AI-based plagiarism detection on every submitted report
+- Archive validated projects for future cohorts to browse
 
 ---
 
 ## 3. Scope
 
-- Web application accessible to three roles: **Admin, Supervisor (Encadrant), Student**
-- Public archive of past PFAs — viewable by connected students
-- Online application system: student submits CV + cover letter per subject
-- Configurable deliverable submission space per subject
-- Automatic AI-based plagiarism module with similarity reports
-- Dashboards and statistics for each actor
-- Administrative management of accounts, subjects, and academic years
+- Web application with three roles: **Admin, Teacher (Encadrant), Student**
+- Teacher creates and configures submission spaces per class/group
+- Teacher selects specific students to invite to each space
+- Two deliverable modes per space:
+  - **Individual** — every invited student submits independently, teacher reviews each one
+  - **Group** — first student to submit locks the space; others are notified and blocked
+- Automatic plagiarism detection on submitted reports
+- Archive of validated PFAs browsable by connected students
+- Admin manages accounts, departments, classes, and academic years
 
 ---
 
@@ -41,7 +45,7 @@ Develop a web application **"Plateforme de Gestion des PFA"** that will:
 | Week | Focus |
 |---|---|
 | 1–2 | Requirements analysis, UML diagrams, environment setup |
-| 3–4 | Auth module, subject management, application system |
-| 5–6 | Deliverable submission, plagiarism detection module |
-| 7 | Archive, showcase, dashboards |
+| 3–4 | Auth, space creation, student invitation system |
+| 5–6 | Deliverable submission (individual + group logic), plagiarism module |
+| 7 | Archive, notifications, dashboards |
 | 8 | Testing, fixes, deployment, internship report |

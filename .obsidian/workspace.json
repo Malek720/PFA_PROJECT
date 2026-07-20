@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0152abcf9ac233f9",
+        "id": "237b821442a35466",
         "type": "tabs",
-        "dimension": 58.7893864013267,
         "children": [
           {
-            "id": "503f927bfb51347c",
+            "id": "7a3e3ddc8adcd304",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,14 +20,7 @@
               "icon": "lucide-file",
               "title": "Stack technique"
             }
-          }
-        ]
-      },
-      {
-        "id": "237b821442a35466",
-        "type": "tabs",
-        "dimension": 41.2106135986733,
-        "children": [
+          },
           {
             "id": "c0621173aed4e3aa",
             "type": "leaf",
@@ -209,8 +201,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c0621173aed4e3aa",
+  "active": "7a3e3ddc8adcd304",
   "lastOpenFiles": [
+    "docs/Diagrammes_UML/Diagrammes_Activites.md",
+    "docs/Diagrammes_UML/Sequence_individuel.md",
+    "docs/Diagrammes_UML/Sequence_groupe.md",
+    "docs/Diagrammes_UML/Diagramme_classes.md",
+    "docs/Diagrammes_UML/Cas_utilisation.md",
+    "docs/Suivi_de_stage/Journal_hebdomadaire.md",
+    "docs/Cahier_des_charges/Besoins_non_fonctionnels.md",
+    "docs/Cahier_des_charges/Besoins_fonctionnels.md",
+    "docs/Architecture/Stack_technique.md",
+    "docs/Cahier_des_charges/Acteurs.md",
     "docs/Architecture/Stack technique.md",
     "docs/index.md",
     "docs/index_temp.md",
@@ -227,25 +229,15 @@
     "docs/Besoins fonctionnels.md",
     "docs/Besoins non fonctionnels.md",
     "docs/Cahier_des_charges/Contexte.md",
-    "Index.md",
-    "docs/Cahier_des_charges/Besoins non fonctionnels.md",
-    "docs/Cahier_des_charges/Besoins fonctionnels.md",
-    "docs/Cahier_des_charges/Acteurs.md",
     "docs/Cahier_des_charges",
-    "docs/Diagrammes_UML/Séquence — Candidature.md",
     "docs/Diagrammes_UML",
     "docs/Architecture",
-    "docs/Suivi_de_stage/Journal hebdomadaire.md",
     "docs/Suivi_de_stage",
-    "docs/2026-07-13.md",
     "docs/Untitled.base",
     "docs",
     "New folder",
     "Untitled.base",
     "mkdocs.yml",
-    "New Text Document.txt",
-    "2026-07-13.md",
-    "Cahier_des_charges/Acteurs.md",
-    "Architecture/Stack technique.md"
+    "New Text Document.txt"
   ]
 }

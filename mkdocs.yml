@@ -12,16 +12,18 @@ nav:
   - Cahier des Charges:
     - Contexte: Cahier_des_charges/Contexte.md
     - Acteurs: Cahier_des_charges/Acteurs.md
-    - Besoins fonctionnels: Cahier_des_charges/Besoins fonctionnels.md
-    - Besoins non fonctionnels: Cahier_des_charges/Besoins non fonctionnels.md
+    - Besoins fonctionnels: Cahier_des_charges/Besoins_fonctionnels.md
+    - Besoins non fonctionnels: Cahier_des_charges/Besoins_non_fonctionnels.md
   - UML Diagrams:
-    - Cas d'utilisation: Diagrammes_UML/Cas d'utilisation.md
-    - Diagramme de classes: Diagrammes_UML/Diagramme de classes.md
-    - Séquence — Candidature: Diagrammes_UML/Séquence — Candidature.md
+    - Cas d'utilisation: Diagrammes_UML/Cas_utilisation.md
+    - Diagramme de classes: Diagrammes_UML/Diagramme_classes.md
+    - Séquence — Individuel: Diagrammes_UML/Sequence_individuel.md
+    - Séquence — Groupe: Diagrammes_UML/Sequence_groupe.md
+    - Diagrammes d'activités: Diagrammes_UML/Diagrammes_Activites.md
   - Architecture:
-    - Stack technique: Architecture/Stack technique.md
+    - Stack technique: Architecture/Stack_technique.md
   - Suivi de stage:
-    - Journal hebdomadaire: Suivi_de_stage/Journal hebdomadaire.md
+    - Journal hebdomadaire: Suivi_de_stage/Journal_hebdomadaire.md
 
 markdown_extensions:
   - admonition
