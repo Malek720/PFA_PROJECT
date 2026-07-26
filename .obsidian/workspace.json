@@ -25,10 +25,14 @@
             "id": "63d904fec54dba6c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "docs/Diagrammes_UML/Diagramme de classes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Diagramme de classes"
             }
           }
         ],
@@ -202,8 +206,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c2323ece7641f669",
+  "active": "63d904fec54dba6c",
   "lastOpenFiles": [
+    "docs/Diagrammes_UML/Cas_utilisation.md",
+    "docs/Diagrammes_UML/Diagramme de classes.md",
     "docs/Suivi_de_stage/Journal_hebdomadaire.md",
     "docs/javascripts/lang.js",
     "docs/javascripts",
@@ -211,7 +217,6 @@
     "docs/Diagrammes_UML/Sequence_groupe.md",
     "docs/Diagrammes_UML/Diagramme_classes.md",
     "docs/Diagrammes_UML/Diagrammes_Activites.md",
-    "docs/Diagrammes_UML/Cas_utilisation.md",
     "docs/Cahier_des_charges/Contexte.md",
     "docs/Cahier_des_charges/Besoins_non_fonctionnels.md",
     "docs/Cahier_des_charges/Besoins_fonctionnels.md",
@@ -221,7 +226,6 @@
     "mkdocs.yml",
     "docs/Architecture/Stack technique.md",
     "docs/index_temp.md",
-    "docs/Diagrammes_UML/Diagramme de classes.md",
     "docs/Diagrammes_UML/Cas d'utilisation.md",
     "docs/Index.md",
     "docs/Stack technique.md",

@@ -9,17 +9,24 @@ classDiagram
     class Utilisateur {
       <<abstract>>
       +int id
-      +string firstName
-      +string lastName
-      +string email
-      +string password
-      +boolean actif
+      +String firstName
+      +String lastName
+      +String email
+      +String password
+      +Role role
       +login()
       +logout()
     }
 
+    class Role {
+      <<enumeration>>
+      ETUDIANT
+      ENSEIGNANT
+      ADMIN
+    }
+
     class Etudiant {
-      +string studentNumber
+      +String studentNumber
       +submitProject()
       +editSubmission()
       +viewSubmission()
@@ -27,7 +34,7 @@ classDiagram
 
     class Enseignant {
       +int teacherNumber
-      +string role
+      +String typeRole
       +validateSubmission()
       +rejectSubmission()
       +updateSubmissionStatus()
@@ -36,7 +43,7 @@ classDiagram
     }
 
     class EnseignantPrincipal {
-      +createProject()
+      +createSubject()
       +inviteSecondaryTeacher()
       +assignStudents()
       +assignGroupLeader()
@@ -46,45 +53,60 @@ classDiagram
       +note: invité par l enseignant principal
     }
 
-    class Administrateur {
+    class Admin {
       +manageUsers()
       +manageClasses()
       +manageAcademicYears()
       +configurePlagiarismThreshold()
+      +managePFAProjects()
       +manageBackups()
+    }
+
+    class Dashboard {
+      +totalProjects()
+      +acceptedProjects()
+      +rejectedProjects()
+      +averageGrade()
+      +plagiarismRate()
     }
 
     class ClasseAcademique {
       +int id
-      +string niveau
-      +string option
-      +string nom
+      +String name
+      +String niveau
+      +String option
     }
 
     class AnneeAcademique {
       +int id
-      +string year
+      +Date year
     }
 
     class SujetPFA {
       +int id
-      +string titre
-      +string description
+      +String title
+      +String description
       +Date deadline
-      +TypeLivrable type
-      +string statut
+      +String statut
       +note: titre unique par classe
     }
 
     class TypeLivrable {
       <<enumeration>>
-      INDIVIDUEL
-      GROUPE
+      REPORT
+      SOURCE_CODE
+      OTHER
+    }
+
+    class LivrableTelecharge {
+      +int id
+      +String fileName
+      +Date uploadDate
     }
 
     class Groupe {
       +int id
-      +string nom
+      +String nom
       +assignerMembres()
       +designerResponsable()
     }
@@ -96,11 +118,9 @@ classDiagram
     class Soumission {
       +int id
       +Date submissionDate
-      +string status
+      +StatutSoumission status
       +float grade
-      +string commentaire
-      +File rapport
-      +File sourceCode
+      +String commentaire
       +deposer()
       +modifier()
       +valider()
@@ -111,8 +131,17 @@ classDiagram
     class StatutSoumission {
       <<enumeration>>
       EN_ATTENTE
+      EN_ANALYSE
       VALIDEE
       REJETEE
+    }
+
+    class HistoriqueStatut {
+      +int id
+      +StatutSoumission ancienStatut
+      +StatutSoumission nouveauStatut
+      +Date dateChangement
+      +int modifiePar
     }
 
     class RapportPlagiat {
@@ -128,42 +157,41 @@ classDiagram
       +int id
       +int anneeUniversitaire
       +boolean misEnAvant
-      +string motsCles
+      +String motsCles
       +publier()
       +rechercher()
     }
 
-    class Dashboard {
-      +totalProjects()
-      +acceptedProjects()
-      +rejectedProjects()
-      +averageGrade()
-      +plagiarismRate()
-    }
-
     Utilisateur <|-- Etudiant
     Utilisateur <|-- Enseignant
-    Utilisateur <|-- Administrateur
+    Utilisateur <|-- Admin
     Enseignant <|-- EnseignantPrincipal
     Enseignant <|-- EnseignantSecondaire
 
+    Utilisateur "1" --> "1" Role : a un
     EnseignantPrincipal "1" --> "0..1" EnseignantSecondaire : invite
     EnseignantPrincipal "1" --> "0..*" SujetPFA : crée
-    SujetPFA "1" --> "1" TypeLivrable : définit
-    SujetPFA "0..*" --> "0..*" ClasseAcademique : associé à
-    ClasseAcademique "0..*" --> "0..*" AnneeAcademique : appartient à
+    Enseignant "1" --> "1" Dashboard : visualise
+    Admin "1" --> "1" Dashboard : visualise
+    Admin "1" --> "0..*" Utilisateur : gère
 
-    SujetPFA "1" --> "0..*" Etudiant : assigne
+    Etudiant "1..*" --> "1" ClasseAcademique : appartient à
+    ClasseAcademique "0..*" --> "0..*" AnneeAcademique : cycle sur
+    ClasseAcademique "0..*" --> "0..*" SujetPFA : associée à
+
+    SujetPFA "1..*" --> "1..*" Etudiant : assigne
+    SujetPFA "1" --> "1" TypeLivrable : définit
     SujetPFA "1" --> "0..1" Groupe : contient
+    SujetPFA "1" --> "0..*" Soumission : reçoit
+
     Groupe "1" --> "0..*" MembreGroupe : composé de
     MembreGroupe "0..*" --> "1" Etudiant : référence
 
-    SujetPFA "1" --> "0..*" Soumission : reçoit
     Etudiant "1" --> "0..*" Soumission : dépose
     Soumission "1" --> "1" StatutSoumission : a un statut
+    Soumission "1" --> "0..*" HistoriqueStatut : tracé dans
+    Soumission "1" --> "0..*" LivrableTelecharge : contient
     Soumission "1" --> "0..1" RapportPlagiat : déclenche
     Soumission "1" --> "0..1" Archive : archivée dans
-
-    Administrateur "1" --> "0..*" Utilisateur : gère
-    Dashboard "1" --> "1" SujetPFA : agrège
+    LivrableTelecharge "0..*" --> "1" TypeLivrable : de type
 ```
