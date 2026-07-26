@@ -1,28 +1,112 @@
-﻿# 🎓 Plateforme de Gestion des PFA — Project #47
+<div class="lang-fr" markdown="1">
 
-> **Intern:** Ben Sassi Malek · **Supervisor:** M. Anas Farhati · **Lab:** IRIS, ESPRIT-TECH  
-> **Duration:** 8 weeks · **Summer 2026**
+# 🎓 Plateforme de Gestion des PFA — Projet #47
+
+> **Stagiaire :** Ben Sassi Malek · **Encadrant :** M. Anas Farhati · **Laboratoire :** IRIS, ESPRIT-TECH
+> **Durée :** 8 semaines · **Été 2026**
 
 ---
 
 ## 📂 Navigation
 
 ### Cahier des Charges
-- [Contexte](Cahier_des_charges/Contexte.md) — Problem statement and objectives
-- [Acteurs](Cahier_des_charges/Acteurs.md) — The three main actors
-- [Besoins fonctionnels](Cahier_des_charges/Besoins%20fonctionnels.md) — Functional requirements (BF-01 → BF-24)
-- [Besoins non fonctionnels](Cahier_des_charges/Besoins%20non%20fonctionnels.md) — Security, performance, ergonomics
+- [Contexte](Cahier_des_charges/Contexte.md) — Problématique et objectifs
+- [Acteurs](Cahier_des_charges/Acteurs.md) — Les acteurs du système
+- [Besoins fonctionnels](Cahier_des_charges/Besoins_fonctionnels.md) — Exigences fonctionnelles
+- [Besoins non fonctionnels](Cahier_des_charges/Besoins_non_fonctionnels.md) — Sécurité, performance, ergonomie
 
-### UML Diagrams
-- [Cas d'utilisation](Diagrammes_UML/Cas%20d'utilisation.md) — Use case diagram
-- [Diagramme de classes](Diagrammes_UML/Diagramme%20de%20classes.md) — Class diagram
-- [Séquence — Candidature](Diagrammes_UML/S%C3%A9quence%20%E2%80%94%20Candidature.md) — Sequence diagram
+### Diagrammes UML
+- [Cas d'utilisation](Diagrammes_UML/Cas_utilisation.md)
+- [Diagramme de classes](Diagrammes_UML/Diagramme_classes.md)
+- [Séquence — Dépôt Individuel](Diagrammes_UML/Sequence_individuel.md)
+- [Séquence — Dépôt de Groupe](Diagrammes_UML/Sequence_groupe.md)
+- [Diagrammes d'activités](Diagrammes_UML/Diagrammes_Activites.md)
 
 ### Architecture
-- [Stack technique](Architecture/Stack%20technique.md) — Technologies and tools
+- [Stack technique](Architecture/Stack_technique.md)
+
+### Suivi de stage
+- [Journal hebdomadaire](Suivi_de_stage/Journal_hebdomadaire.md)
+
+---
+
+## ⚡ Flux principal
+
+```
+L'enseignant principal crée un projet PFA
+        ↓
+Invite un enseignant secondaire (optionnel)
+        ↓
+Configure le type de livrable (Individuel / Groupe)
+        ↓
+Assigne des étudiants spécifiques
+        ↓
+   [Individuel]                    [Groupe]
+Chaque étudiant dépose        Le responsable du groupe dépose
+L'enseignant valide chacun    Les autres sont bloqués
+Statut modifiable              L'enseignant valide (statut modifiable)
+```
+
+---
+
+## 🗓️ Dates clés
+
+| Étape | Date |
+|---|---|
+| Candidature soumise | Juin 2026 |
+| Début du stage | À confirmer |
+| Point mi-parcours | Semaine 4 |
+| Livraison finale | Semaine 8 |
+
+</div>
+<div class="lang-en" markdown="1">
+
+# 🎓 PFA Management Platform — Project #47
+
+> **Intern:** Ben Sassi Malek · **Supervisor:** M. Anas Farhati · **Lab:** IRIS, ESPRIT-TECH
+> **Duration:** 8 weeks · **Summer 2026**
+
+---
+
+## 📂 Navigation
+
+### Requirements
+- [Context](Cahier_des_charges/Contexte.md) — Problem statement and objectives
+- [Actors](Cahier_des_charges/Acteurs.md) — System actors
+- [Functional requirements](Cahier_des_charges/Besoins_fonctionnels.md)
+- [Non-functional requirements](Cahier_des_charges/Besoins_non_fonctionnels.md)
+
+### UML Diagrams
+- [Use case diagram](Diagrammes_UML/Cas_utilisation.md)
+- [Class diagram](Diagrammes_UML/Diagramme_classes.md)
+- [Sequence — Individual submission](Diagrammes_UML/Sequence_individuel.md)
+- [Sequence — Group submission](Diagrammes_UML/Sequence_groupe.md)
+- [Activity diagrams](Diagrammes_UML/Diagrammes_Activites.md)
+
+### Architecture
+- [Tech stack](Architecture/Stack_technique.md)
 
 ### Internship Log
-- [Journal hebdomadaire](Suivi_de_stage/Journal%20hebdomadaire.md) — Weekly progress tracker
+- [Weekly journal](Suivi_de_stage/Journal_hebdomadaire.md)
+
+---
+
+## ⚡ Core Flow
+
+```
+Primary teacher creates PFA project
+        ↓
+Optionally invites a secondary teacher
+        ↓
+Configures deliverable type (Individual / Group)
+        ↓
+Assigns specific students
+        ↓
+   [Individual]                [Group]
+Each student submits      Group leader submits
+Teacher reviews each      Others are blocked
+Status can be revised     Teacher validates (status revisable)
+```
 
 ---
 
@@ -35,12 +119,4 @@
 | Mid-term review | Week 4 |
 | Final delivery | Week 8 |
 
----
-
-## ⚡ Quick Summary
-
-The platform centralises the full PFA lifecycle:
-1. Students browse subjects and submit applications (CV + cover letter)
-2. Supervisors review, accept/reject, and validate submissions
-3. An AI plagiarism checker runs automatically on every report
-4. Validated projects are archived and browsable by future students
+</div>
